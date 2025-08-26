@@ -8,7 +8,7 @@ This repository is distilled from our course project report and results.
 
 **Problem:** Early, accurate detection of lung pathologies in CT is hard; radiologist capacity is limited.
 
-Approach:
+**Approach:**
 **Baseline:** two-channel CNN (stacked CT slice + lung mask).
 Hybrid 1: CNN + BioViL (vision–language embeddings fused with CNN features).
 Hybrid 2: CNN + MedCLIP (contrastive visual embeddings fused with CNN features).
